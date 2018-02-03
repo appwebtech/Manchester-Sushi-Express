@@ -1,0 +1,102 @@
+/*General Rules ~ Full Page*/
+body, html {
+	height: 100%;
+}
+
+
+body {
+	font-family: 'Indie Flower', cursive;
+	font-size: 100%;
+	background: url("../images/background6.jpg");
+	background-attachment: fixed;
+
+}
+
+/*Header ~ Doesn't Include Navbar*/
+#header {
+	height: 100%;
+}
+
+#wrapper {
+	height: 100%;
+	background: url("../images/sectionBg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 1em solid red;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+	display: table;
+
+}
+
+#content-box {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#header img {
+	width: 23em;
+	display: inline;
+}
+
+#header p {
+	font-size: 3em;
+	font-weight: bolder;
+	margin: 1em 0;
+}
+
+#header p:hover {
+	color: white;
+}
+
+#header #content a {
+	background-color: white;
+	font-size: 4em;
+	padding: 0.15em 0.5em;
+	color: blue;
+	text-decoration: none;
+	opacity: 0.6;
+	border: 0.15em solid black;
+}
+
+#header #content a:hover {
+	background-color: red;
+	opacity: 1;
+}
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
