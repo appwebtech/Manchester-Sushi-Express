@@ -69,8 +69,36 @@ body {
 	opacity: 1;
 }
 
-/**/
+/*Navbar*/
 
+.navbar {
+	background-color: transparent;
+	border: 0;
+	padding: 2em;
+}
+
+.navbar button {
+	background-color: red;
+}
+
+.navbar button:hover {
+	background-color: black!important;
+}
+
+.navbar-brand {
+	color: black!important;
+	font-size: 6em;
+}
+
+.navbar a:not(.navbar-brand) {
+	color: red!important;
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.navbar a:hover {
+	color: black!important;
+}
 
 
 
