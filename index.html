@@ -32,9 +32,11 @@
     <!--Main CSS -->
    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-   <!-- Light Box -->
+   <!-- Light Box ~ Featherlight -->
 
-   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.12/featherlight.gallery.min.css" type="text/css" rel="stylesheet" /> -->
+
+	<link rel="stylesheet" href="css/featherlight.min.css">
 
 
 
@@ -87,7 +89,7 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-6">
 						<img src="images/a-pickle_rolls.jpg" alt="Pickle Rolls" class="img-responsive" style="display:inline">
-						<a href="#"><h2>Pickle rolls with veggies</h2></a>
+						<a href="#" data-featherlight="images/a-pickle_rolls.jpg"><h2>Pickle rolls with veggies</h2></a>
 					</div>
 
 					<div class="col-md-4 col-sm-6">
@@ -185,10 +187,7 @@
 
 
 
-		<!-- Light Box -->
 
-		<script src="//code.jquery.com/jquery-latest.js"></script>
-		<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -200,5 +199,13 @@
         ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Light Box -->
+		<script src="js/featherlight.min.js" type="text/javascript" charset="utf-8" async defer></script>
+   <!--  <script src="//code.jquery.com/jquery-latest.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.12/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script> -->
   </body>
 </html>
