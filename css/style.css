@@ -50,6 +50,7 @@ body {
 	margin: 1em 0;
 }
 
+
 #header p:hover {
 	color: white;
 }
@@ -97,7 +98,7 @@ body {
 }
 
 .navbar a:hover {
-	color: black!important;
+	color: ghostwhite!important;
 }
 
 /* Photos*/
