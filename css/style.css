@@ -140,6 +140,58 @@ body {
 }
 
 
+/* Form */
+
+#form {
+	padding: 3em 2em;
+}
+
+#form h1 {
+	color: red;
+}
+
+.form {
+	background-color: black;
+	opacity: 0.6;
+	padding: 2em 3em;
+	height: 60em;
+}
+
+.form h3 {
+	color: red;
+}
+
+.form p {
+	color: white;
+	font-size: 2em;
+}
+
+.form button {
+	background-color: red;
+	font-size: 3em;
+}
+
+.iframe {
+	padding: 2em 1em;
+	height: 60em;
+	background-color: white;
+}
+
+.iframe iframe {
+	height: 40em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
