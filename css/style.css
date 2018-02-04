@@ -181,6 +181,23 @@ body {
 	height: 40em;
 }
 
+/* Footer */
+
+footer .fa{
+	color: ghostwhite;
+	font-size: 4em;
+	padding: 0 0.2em;
+}
+
+footer .fa:hover {
+	color: yellow;
+	font-size: 5em;
+}
+
+footer h3 {
+	color: red;
+	font-size: 3em;
+}
 
 
 
