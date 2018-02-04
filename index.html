@@ -10,12 +10,12 @@
     <title>AWT Sushi bar</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <!--<link rel="stylesheet" href="css/main.css"> -->
 
     <!--Bootstrap -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
     <!--Google Fonts -->
 <!--    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> -->
@@ -59,15 +59,15 @@
 			<div id="wrapper">
 				<nav class="navbar navbar-default" role="navigation">
 	      	<div class="navbar-header">
-	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#but1">
+	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 	      		<span class="icon-bar"></span>
 	      		<span class="icon-bar"></span>
 	      		<span class="icon-bar"></span>
 	      		</button>
-						<a class="navbar-brand" href="#">MSB SUSHI</a>
+						<a class="navbar-brand" href="#">SUSHI</a>
 
 	      	</div>
-	      	<div class="collapse navbar-collapse" id="but1">
+	      	<div class="nav navbar-nav navbar-collapse" id="#myNavbar">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Soup</a></li>
 							<li><a href="#">Spring Roll</a></li>
@@ -198,7 +198,7 @@
 
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -207,8 +207,15 @@
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
+
+
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+
+    <!-- Ajax & Google API's -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 		<!-- Light Box -->
 		<script src="js/featherlight.min.js" type="text/javascript" charset="utf-8" async defer></script>
@@ -220,6 +227,7 @@
 		<script src="js/wow.min.js"></script>
 		<script src="js/wow.js" type="text/javascript" charset="utf-8" async defer></script>
 
+
 		<script>
       new WOW().init();
     </script>
@@ -228,8 +236,22 @@
 
     <script src="js/scrollPress.js" type="text/javascript"></script>
 
-    <script>
+<!--     <script>
     $(window).scrollPress();
+    </script> -->
+     <script>
+    	$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
     </script>
+
+    <!-- Bootstrap CDN -->
+    <!-- Local -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
   </body>
 </html>

@@ -87,9 +87,11 @@ body {
 }
 
 .navbar-brand {
-	color: black!important;
-	font-size: 6em;
+	color: ghostwhite!important;
+	font-size: 4em;
 }
+
+
 
 .navbar a:not(.navbar-brand) {
 	color: red!important;
