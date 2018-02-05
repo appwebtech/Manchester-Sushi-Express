@@ -1,3 +1,27 @@
+<?php
+
+if ($_POST['subscribe']) {
+	if (!$_POST['firstname']) {
+		$error="Please enter your first name";
+	}
+		if (!$_POST['lastname']) {
+		$error="Please enter your lastname";
+	}
+		if (!$_POST['email']) {
+		$error="Please enter your email";
+	}
+
+	if ($error) {
+			$result="whoops, there is an error. Please correct the following: $error";
+	}
+
+
+}
+
+
+?>
+
+
 <!doctype html>
 <html class="no-js" lang="">
   <head>
@@ -134,6 +158,9 @@
 				<div class="row">
 					<div class="col-sm-6 form">
 						<h3>Emailing list</h3>
+
+						<?php echo $result;?>
+
 						<p>Keep in touch and stay updated...</p>
 
 						<form>
